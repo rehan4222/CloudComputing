@@ -49,11 +49,11 @@ const Navbar = () => {
         </ul>
 
         {/* mobile */}
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="sm:hidden flex flex-1 w-screen justify-end items-center">
           {toggle ? (
             <div
               className={`p-6 bg-flashWhite opacity-[0.98] absolute 
-                top-0 left-0 h-[100vh] z-10 menu ${
+                top-0 left-0 w-screen h-[100vh] z-10 menu ${
                   toggle ? 'menu-open' : 'menu-close'
                 }`}>
               <div className="flex justify-end">

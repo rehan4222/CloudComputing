@@ -7,14 +7,14 @@ import { shaq, bwmap, worldmap } from '../assets';
 const Hero = () => {
   return (
     <>
-      <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
+      <div className="absolute top-0 left-0 z-0 h-[100vh]">
         <img
           src={bwmap}
           alt="world map"
           className="w-full h-full sm:block hidden object-cover"
         />
       </div>
-      <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
+      <div className="absolute top-0 left-0 z-0 h-[100vh]">
         <img
           src={worldmap}
           alt="world map"
@@ -83,8 +83,8 @@ const Hero = () => {
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
           <img
-            className="absolute bottom-0 ml-[50vw] 
-            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
+            className="absolute bottom-0 ml-[60vw] 
+            lg:ml-[60vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[60vw]
             sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
             src={shaq}
             alt="shaquille"
