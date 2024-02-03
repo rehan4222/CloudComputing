@@ -57,6 +57,9 @@ import dotnet from './tech/dotnet.png';
 import flow from './tech/flow.png';
 import blockchain from './tech/blockchain.png';
 import sqlserver from './tech/sqlserver.png';
+import flowblog from './blog/flowblog.png';
+import reactblog from './blog/reactblog.png';
+import arweaveblog from './blog/arweaveblog.png';
 
 
 export {
@@ -112,5 +115,8 @@ export {
   flow,
   blockchain,
   sqlserver,
-  dotnet
+  dotnet,
+  flowblog,
+  reactblog,
+  arweaveblog
 };

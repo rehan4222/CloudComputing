@@ -34,7 +34,10 @@ import {
   dotnet,
   flow,
   blockchain,
-  sqlserver
+  sqlserver,
+  flowblog,
+  reactblog,
+  arweaveblog,
 } from '../assets';
 
 export const navLinks = [
@@ -53,6 +56,10 @@ export const navLinks = [
   {
     id: 'education',
     title: 'Education',
+  },
+  {
+    id: 'blog',
+    title: 'Blog',
   },
   {
     id: 'contact',
@@ -320,6 +327,26 @@ const education = [
     icon: miu,
   },
   
+  
+];
+const blog = [
+  {
+    title: 'Deploying Your React App on AWS A Step by Step Guide ',
+    link: 'https://medium.com/@mum.rehan95/deploying-your-react-app-on-aws-a-step-by-step-guide-3f5172c90ad1',
+    icon:reactblog
+  },
+  {
+    title: 'What is Arweave Protocol',
+    link: 'https://medium.com/@mum.rehan95/what-is-arweave-protocol-f3379cfdef07',
+    icon:arweaveblog
+  },
+  {
+    title: 'What is Near Protocol',
+    link: 'https://medium.com/@mum.rehan95/what-is-near-protocol-4300db207ff5',
+    icon:flowblog
+  },
+
+  
 ];
 
-export { services, technologies, experiences, projects,education };
+export { services, technologies, experiences, projects,education,blog };

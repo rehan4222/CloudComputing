@@ -9,6 +9,7 @@ import {
   Projects,
 } from './components';
 import Education from './components/Education';
+import Blog from './components/Blog';
 
 const App = () => {
   return (
@@ -40,6 +41,9 @@ const App = () => {
         </div>
         <div className="bg-about bg-cover bg-center bg-no-repeat">
           <Education />
+        </div>
+        <div className="bg-about bg-cover bg-center bg-no-repeat">
+          <Blog />
         </div>
         <div className="relative z-0">
           <Contact />
