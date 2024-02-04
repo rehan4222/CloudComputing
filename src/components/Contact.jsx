@@ -10,6 +10,8 @@ import github  from '../assets/social/github.png';
 import  mail  from '../assets/social/mail.png';
 import linkedin  from '../assets/social/linkedin.png';
 import  twitter  from '../assets/social/twitter.png';
+import  medium  from '../assets/social/medium.png';
+import  linktree  from '../assets/social/linktree.png';
 
 const Contact = () => {
   const formRef = useRef();
@@ -201,6 +203,12 @@ const Contact = () => {
       </a>
       <a href="https://www.facebook.com/mrh614653/">
         <img src={facebook} alt="Facebook" width="50"/>
+      </a>
+      <a href="https://medium.com/@mum.rehan95/">
+        <img src={medium} alt="Medium" width="50"/>
+      </a>
+      <a href="https://linktr.ee/mumrehan/">
+        <img src={linktree} alt="Linktree" width="50"/>
       </a>
     </div>
   </div>
